@@ -1,5 +1,5 @@
 # これなに
-0ad Japanese Fonts and Translations
+0ad Japanese Fonts and Translations for a23
 # つかいかた
 
 * Windows: `C:\Users\matsudai\Documents\My Games\0ad\mods`
