@@ -1,0 +1,8 @@
+{
+	"name": "ja-lang",
+	"version": "0.0.23",
+	"label": "Japanese Language Pack",
+	"url": "play0ad.com",
+	"description": "Japanese Fonts and Translations",
+	"dependencies": ["0ad=0.0.23"]
+}

@@ -1,0 +1,810 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Asakura, 2017
+# Kanetaka Suto, 2014-2016
+# karu babu <karubabu@protonmail.com>, 2018
+# llen_llen, 2014,2016
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2018-04-23 09:03+0200\n"
+"PO-Revision-Date: 2018-07-31 03:48+0000\n"
+"Last-Translator: karu babu <karubabu@protonmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/wildfire-games/0ad/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gui/lobby/lobby.js:50
+msgid "Online"
+msgstr "入室"
+
+#: gui/lobby/lobby.js:51
+msgid "Away"
+msgstr "退席中"
+
+#: gui/lobby/lobby.js:52
+msgid "Busy"
+msgstr "取込み中"
+
+#: gui/lobby/lobby.js:53
+msgid "Offline"
+msgstr "オフライン"
+
+#: gui/lobby/lobby.js:54
+msgctxt "lobby presence"
+msgid "Unknown"
+msgstr "未定"
+
+#: gui/lobby/lobby.js:58
+msgid "Moderator"
+msgstr "運営"
+
+#: gui/lobby/lobby.js:59
+msgid "Player"
+msgstr "プレイヤー"
+
+#: gui/lobby/lobby.js:60
+msgid "Muted Player"
+msgstr "ミュートされたプレイヤー"
+
+#: gui/lobby/lobby.js:156
+msgid "Disconnected."
+msgstr "通信が切れました。"
+
+#: gui/lobby/lobby.js:178
+#, javascript-format
+msgid "%(nick)s changed the lobby subject to %(subject)s"
+msgstr "%(nick)sがロビータイトルを%(subject)sへ変更しました"
+
+#: gui/lobby/lobby.js:189
+#, javascript-format
+msgid "%(nick)s has joined."
+msgstr "%(nick)sが参加しました。"
+
+#: gui/lobby/lobby.js:199
+#, javascript-format
+msgid "%(nick)s has left."
+msgstr "%(nick)sが退出しました。"
+
+#: gui/lobby/lobby.js:220
+msgid "You have been muted."
+msgstr "あなたはミュートされました。"
+
+#: gui/lobby/lobby.js:221
+#, javascript-format
+msgid "%(nick)s has been muted."
+msgstr "%(nick)sはミュートされました。"
+
+#: gui/lobby/lobby.js:224
+msgid "You are now a moderator."
+msgstr "あなたは現在モデレーターです。"
+
+#: gui/lobby/lobby.js:225
+#, javascript-format
+msgid "%(nick)s is now a moderator."
+msgstr "%(nick)sは現在モデレーターです。"
+
+#: gui/lobby/lobby.js:228
+msgid "You have been unmuted."
+msgstr "あなたはミュートされました。"
+
+#: gui/lobby/lobby.js:229
+#, javascript-format
+msgid "%(nick)s has been unmuted."
+msgstr "%(nick)sは復帰しました(unmuted)。"
+
+#: gui/lobby/lobby.js:231
+msgid "You are not a moderator anymore."
+msgstr "あなたはもうモデレーターではありません。"
+
+#: gui/lobby/lobby.js:232
+#, javascript-format
+msgid "%(nick)s is not a moderator anymore."
+msgstr "%(nick)sはもうモデレーターではありません。"
+
+#: gui/lobby/lobby.js:247
+#, javascript-format
+msgid "%(oldnick)s is now known as %(newnick)s."
+msgstr "%(oldnick)sは名前を%(newnick)sに変更しました。"
+
+#: gui/lobby/lobby.js:279
+msgid "Notice"
+msgstr "通知"
+
+#: gui/lobby/lobby.js:320
+msgid "Set your state to 'Away'."
+msgstr "ステータスを「離席」に設定します。"
+
+#: gui/lobby/lobby.js:327
+msgid "Set your state to 'Online'."
+msgstr "ステータスを「オンライン」に設定します。"
+
+#: gui/lobby/lobby.js:334
+msgid "Kick a specified user from the lobby. Usage: /kick nick reason"
+msgstr "指定したユーザーをキックします。使い方: /kick ユーザー名 理由"
+
+#: gui/lobby/lobby.js:342
+msgid "Ban a specified user from the lobby. Usage: /ban nick reason"
+msgstr "指定したユーザーをBANします。使い方: /ban ユーザー名 理由"
+
+#: gui/lobby/lobby.js:350
+msgid "Show this help."
+msgstr "このヘルプを表示します。"
+
+#: gui/lobby/lobby.js:353
+msgid "Chat commands:"
+msgstr "チャットコマンド:"
+
+#. Translation: Chat command help format
+#: gui/lobby/lobby.js:357
+#, javascript-format
+msgid "%(command)s - %(description)s"
+msgstr "%(command)s - %(description)s"
+
+#: gui/lobby/lobby.js:370
+msgid "Send a chat message about yourself. Example: /me goes swimming."
+msgstr "自分に関するメッセージを送信します。例:/me 泳ぎに行った。"
+
+#: gui/lobby/lobby.js:374
+msgid ""
+"Send text as a chat message (even if it starts with slash). Example: /say "
+"/help is a great command."
+msgstr "チャットメッセージとしてテキストを送信します(スラッシュから開始される文だったとしても)。例: /say /helpは素晴らしいコマンドです。"
+
+#: gui/lobby/lobby.js:378
+msgid "Clear all chat scrollback."
+msgstr "全てのチャット履歴をクリアします。"
+
+#: gui/lobby/lobby.js:385
+msgid "Return to the main menu."
+msgstr "メインメニューに戻ります。"
+
+#: gui/lobby/lobby.js:443
+msgid "You have been disconnected from the lobby. Do you want to reconnect?"
+msgstr "あなたはロビーから切断されました。再接続しますか？"
+
+#: gui/lobby/lobby.js:444 gui/lobby/lobby.js:1200 gui/prelobby/prelobby.js:299
+msgid "Confirmation"
+msgstr "確認"
+
+#: gui/lobby/lobby.js:445 gui/lobby/lobby.js:1184 gui/lobby/lobby.js:1201
+#: gui/prelobby/prelobby.js:300
+msgid "No"
+msgstr "いいえ"
+
+#: gui/lobby/lobby.js:445 gui/lobby/lobby.js:1184 gui/lobby/lobby.js:1201
+#: gui/prelobby/prelobby.js:300
+msgid "Yes"
+msgstr "はい"
+
+#: gui/lobby/lobby.js:460
+msgctxt "previous page"
+msgid "Back"
+msgstr "戻る"
+
+#: gui/lobby/lobby.js:461
+msgctxt "previous page"
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: gui/lobby/lobby.js:530
+msgctxt "map size"
+msgid "Any"
+msgstr "不問"
+
+#: gui/lobby/lobby.js:535
+msgctxt "player number"
+msgid "Any"
+msgstr "不問"
+
+#: gui/lobby/lobby.js:539 gui/lobby/lobby.js:553
+msgctxt "map"
+msgid "Any"
+msgstr "不問"
+
+#: gui/lobby/lobby.js:547
+#, javascript-format
+msgctxt "gamelist filter"
+msgid "> %(rating)s"
+msgstr "> %(rating)s"
+
+#: gui/lobby/lobby.js:548
+#, javascript-format
+msgctxt "gamelist filter"
+msgid "< %(rating)s"
+msgstr "< %(rating)s"
+
+#: gui/lobby/lobby.js:621
+msgid "You have been banned from the lobby!"
+msgstr "あなたはロビーから締め出されました (ban)"
+
+#: gui/lobby/lobby.js:622
+msgid "You have been kicked from the lobby!"
+msgstr "あなたはロビーから跳ね除けられました (kick)"
+
+#: gui/lobby/lobby.js:624
+#, javascript-format
+msgid "%(nick)s has been banned from the lobby."
+msgstr "%(nick)sはロビーから締め出されました (ban)"
+
+#: gui/lobby/lobby.js:625
+#, javascript-format
+msgid "%(nick)s has been kicked from the lobby."
+msgstr "%(nick)sはロビーから跳ね除けられました (kick)"
+
+#: gui/lobby/lobby.js:628
+#, javascript-format
+msgctxt "lobby kick"
+msgid "Reason: %(reason)s"
+msgstr "理由: %(reason)s"
+
+#: gui/lobby/lobby.js:656
+msgid "BANNED"
+msgstr "BAN済"
+
+#: gui/lobby/lobby.js:656
+msgid "KICKED"
+msgstr "KICK済"
+
+#: gui/lobby/lobby.js:687
+msgid "Unmark as Buddy"
+msgstr "仲間のマークをはずす"
+
+#: gui/lobby/lobby.js:687
+msgid "Mark as Buddy"
+msgstr "仲間のマークを付ける"
+
+#: gui/lobby/lobby.js:880 gui/lobby/lobby.js:881 gui/lobby/lobby.js:882
+#: gui/lobby/lobby.js:883 gui/lobby/lobby.js:884 gui/lobby/lobby.js:885
+msgid "N/A"
+msgstr "N/A"
+
+#: gui/lobby/lobby.js:913
+#, javascript-format
+msgid "Player \"%(nick)s\" not found."
+msgstr "プレイヤー \"%(nick)s\" が見つかりません."
+
+#. Translation: %(time)s is the hour and minute here.
+#: gui/lobby/lobby.js:1134
+#, javascript-format
+msgid "Game started at %(time)s"
+msgstr "ゲームは%(time)sに開始します"
+
+#: gui/lobby/lobby.js:1135 gui/lobby/lobby.js:1514
+msgid "HH:mm"
+msgstr "HH:mm"
+
+#: gui/lobby/lobby.js:1139
+#, javascript-format
+msgid "Players: %(current)s/%(total)s"
+msgstr "プレイヤー：%(current)s/%(total)s"
+
+#: gui/lobby/lobby.js:1180
+msgid "Your active mods do not match the mods of this game."
+msgstr "現在有効にしているMODはこのゲームのMODと適合しません。"
+
+#: gui/lobby/lobby.js:1182
+msgid "Do you want to switch to the mod selection page?"
+msgstr "MOD選択画面に移動しますか？"
+
+#: gui/lobby/lobby.js:1183
+msgid "Incompatible mods"
+msgstr "互換性の無いMOD"
+
+#: gui/lobby/lobby.js:1199
+msgid "The game has already started. Do you want to join as observer?"
+msgstr "ゲームはすでに始まっています。観戦者として参加しますか？"
+
+#: gui/lobby/lobby.js:1233
+#, javascript-format
+msgid "This game's address '%(ip)s' does not appear to be valid."
+msgstr "このゲームのアドレス「%(ip)s」は正しくない形式です。"
+
+#: gui/lobby/lobby.js:1349
+#, javascript-format
+msgid "The command '%(cmd)s' is not supported."
+msgstr "「%(cmd)s」コマンドはサポートされていません。"
+
+#: gui/lobby/lobby.js:1361
+#, javascript-format
+msgid "The command '%(cmd)s' is restricted to moderators."
+msgstr "「%(cmd)s」コマンドはモデレーター専用です。"
+
+#. Translation: IRC message prefix when the sender uses the /me command.
+#: gui/lobby/lobby.js:1434
+#, javascript-format
+msgid "* %(sender)s"
+msgstr "* %(sender)s"
+
+#. Translation: IRC message issued using the ‘/me’ command.
+#: gui/lobby/lobby.js:1439
+#, javascript-format
+msgid "%(sender)s %(action)s"
+msgstr "%(sender)s %(action)s"
+
+#. Translation: IRC message prefix.
+#: gui/lobby/lobby.js:1448 gui/lobby/lobby.js:1469 gui/lobby/lobby.js:1496
+#, javascript-format
+msgid "<%(sender)s>"
+msgstr "<%(sender)s>"
+
+#. Translation: IRC message.
+#: gui/lobby/lobby.js:1453 gui/lobby/lobby.js:1474 gui/lobby/lobby.js:1501
+#, javascript-format
+msgid "%(sender)s %(message)s"
+msgstr "%(sender)s %(message)s"
+
+#. Translation: IRC system message.
+#: gui/lobby/lobby.js:1463
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#: gui/lobby/lobby.js:1491
+#, javascript-format
+msgctxt "lobby private message"
+msgid "(%(private)s) <%(sender)s>"
+msgstr "(%(private)s) <%(sender)s>"
+
+#: gui/lobby/lobby.js:1492
+msgid "Private"
+msgstr "プライベート"
+
+#. Translation: Time prefix as shown in the multiplayer lobby (when you enable
+#. it in the options page).
+#: gui/lobby/lobby.js:1517
+#, javascript-format
+msgid "\\[%(time)s]"
+msgstr "\\[%(time)s]"
+
+#. Translation: IRC message format when there is a time prefix.
+#: gui/lobby/lobby.js:1522
+#, javascript-format
+msgid "%(time)s %(message)s"
+msgstr "%(time)s %(message)s"
+
+#: gui/lobby/lobby.js:1561
+#, javascript-format
+msgid "%(nick)s (%(rating)s)"
+msgstr "%(nick)s (%(rating)s)"
+
+#: gui/lobby/lobby.js:1577
+msgctxt "Used for an undefined winning rate"
+msgid "-"
+msgstr "-"
+
+#: gui/lobby/lobby.js:1579
+#, javascript-format
+msgid "%(percentage)s%%"
+msgstr "%(percentage)s%%"
+
+#: gui/prelobby/prelobby.js:43
+msgid "Connecting…"
+msgstr "接続中…"
+
+#: gui/prelobby/prelobby.js:66
+msgid "Registering…"
+msgstr "登録中…"
+
+#: gui/prelobby/prelobby.js:96
+msgid "Please enter your username"
+msgstr "ユーザー名を入力してください"
+
+#: gui/prelobby/prelobby.js:102
+msgid "Invalid username"
+msgstr "無効なユーザー名"
+
+#: gui/prelobby/prelobby.js:109
+msgctxt "login"
+msgid "Please enter your password"
+msgstr "パスワードを入力してください"
+
+#: gui/prelobby/prelobby.js:110
+msgctxt "register"
+msgid "Please enter your password"
+msgstr "パスワードを入力してください"
+
+#: gui/prelobby/prelobby.js:123
+msgid "Please enter your password again"
+msgstr "パスワードをもう一度入力してください"
+
+#: gui/prelobby/prelobby.js:129
+msgid "Passwords do not match"
+msgstr "パスワードが一致しません"
+
+#: gui/prelobby/prelobby.js:135
+msgid "Please read the Terms of Service"
+msgstr "サービス規約をお読みください"
+
+#: gui/prelobby/prelobby.js:141
+msgid "Please read the Terms of Use"
+msgstr "利用規約をお読みください"
+
+#: gui/prelobby/prelobby.js:147
+msgid "Please agree to the Terms of Service and Terms of Use"
+msgstr "サービス規約および利用規約をご承諾ください"
+
+#: gui/prelobby/prelobby.js:179
+msgid ""
+"Unknown error. This usually occurs because the same IP address is not "
+"allowed to register more than one account within one hour."
+msgstr "不明なエラー。 これは通常、1時間以内に同じIPアドレスから複数のアカウントを登録できないために発生します。"
+
+#: gui/prelobby/prelobby.js:185
+msgid "Registered"
+msgstr "登録完了"
+
+#: gui/prelobby/prelobby.js:249
+msgid "Register"
+msgstr "登録"
+
+#: gui/prelobby/prelobby.js:255 gui/prelobby/prelobby.xml:(caption):116
+msgid "Connect"
+msgstr "接続"
+
+#: gui/prelobby/prelobby.js:265 gui/prelobby/prelobby.xml:(caption):93
+msgid "Terms of Service"
+msgstr "サービス規約"
+
+#: gui/prelobby/prelobby.js:274 gui/prelobby/prelobby.xml:(caption):98
+msgid "Terms of Use"
+msgstr "利用規約"
+
+#: gui/prelobby/prelobby.js:298
+msgid "Are you sure you want to delete the password after connecting?"
+msgstr "接続後パスワードを入力欄から削除しますがよろしいですか？"
+
+#: gui/lobby/lobby.xml:(caption):13 gui/prelobby/prelobby.xml:(caption):25
+msgid "Multiplayer Lobby"
+msgstr "マルチプレイヤーロビー"
+
+#: gui/lobby/lobby_panels.xml:(heading):24
+msgid "Status"
+msgstr "状態"
+
+#: gui/lobby/lobby_panels.xml:(heading):27
+#: gui/lobby/lobby_panels.xml:(heading):190
+#: gui/lobby/lobby_panels.xml:(heading):289
+msgid "Name"
+msgstr "名前"
+
+#: gui/lobby/lobby_panels.xml:(heading):30
+#: gui/lobby/lobby_panels.xml:(heading):205
+#: gui/lobby/lobby_panels.xml:(heading):292
+msgid "Rating"
+msgstr "格付け"
+
+#: gui/lobby/lobby_panels.xml:(heading):193
+msgid "Map Name"
+msgstr "マップ名"
+
+#: gui/lobby/lobby_panels.xml:(heading):196
+msgctxt "map"
+msgid "Size"
+msgstr "大きさ"
+
+#: gui/lobby/lobby_panels.xml:(heading):199
+msgctxt "map"
+msgid "Type"
+msgstr "種類"
+
+#: gui/lobby/lobby_panels.xml:(heading):202
+msgid "Players"
+msgstr "プレイヤー数"
+
+#: gui/lobby/lobby_panels.xml:(heading):286
+msgid "Rank"
+msgstr "順位"
+
+#: gui/lobby/lobby_panels.xml:(caption):52
+#: gui/lobby/lobby_panels.xml:(caption):331
+msgid "Current Rank:"
+msgstr "現順位："
+
+#: gui/lobby/lobby_panels.xml:(caption):56
+#: gui/lobby/lobby_panels.xml:(caption):335
+msgid "Highest Rating:"
+msgstr "最高格付け："
+
+#: gui/lobby/lobby_panels.xml:(caption):60
+#: gui/lobby/lobby_panels.xml:(caption):339
+msgid "Total Games:"
+msgstr "対戦数："
+
+#: gui/lobby/lobby_panels.xml:(caption):64
+#: gui/lobby/lobby_panels.xml:(caption):343
+msgid "Wins:"
+msgstr "勝："
+
+#: gui/lobby/lobby_panels.xml:(caption):68
+#: gui/lobby/lobby_panels.xml:(caption):347
+msgid "Losses:"
+msgstr "負："
+
+#: gui/lobby/lobby_panels.xml:(caption):72
+#: gui/lobby/lobby_panels.xml:(caption):351
+msgid "Win Rate:"
+msgstr "勝率："
+
+#: gui/lobby/lobby_panels.xml:(caption):86
+#: gui/lobby/lobby_panels.xml:(caption):279
+msgid "Leaderboard"
+msgstr "ランキング"
+
+#: gui/lobby/lobby_panels.xml:(caption):92
+#: gui/lobby/lobby_panels.xml:(caption):314
+msgid "User Profile Lookup"
+msgstr "ユーザープロフィール検索"
+
+#: gui/lobby/lobby_panels.xml:(caption):120
+msgid "Map Type:"
+msgstr "マップの種類："
+
+#: gui/lobby/lobby_panels.xml:(caption):132
+msgid "Map Size:"
+msgstr "マップの大きさ："
+
+#. Join the game currently selected in the list.
+#: gui/lobby/lobby_panels.xml:(caption):157
+msgid "Join Game"
+msgstr "ゲームに参加する"
+
+#: gui/lobby/lobby_panels.xml:(caption):163
+msgid "Host Game"
+msgstr "ゲームをホストする"
+
+#: gui/lobby/lobby_panels.xml:(caption):244
+msgid "Show only open games"
+msgstr "オープンゲームのみ表示"
+
+#: gui/lobby/lobby_panels.xml:(caption):267
+msgid "Send"
+msgstr "送信"
+
+#: gui/lobby/lobby_panels.xml:(caption):299
+#: gui/lobby/lobby_panels.xml:(caption):361
+msgid "Back"
+msgstr "戻る"
+
+#: gui/lobby/lobby_panels.xml:(caption):305
+msgid "Update"
+msgstr "更新"
+
+#: gui/lobby/lobby_panels.xml:(caption):317
+msgid "Enter username:"
+msgstr "ユーザー名を入力："
+
+#: gui/lobby/lobby_panels.xml:(caption):323
+msgid "View Profile"
+msgstr "プロフィールを見る"
+
+#: gui/lobby/lobby_panels.xml:(caption):356
+msgid "Please enter a player name."
+msgstr "プレイヤー名を入力してください"
+
+#: gui/prelobby/prelobby.xml:(caption):30
+msgid "Create a new account"
+msgstr "新規アカウントを作成する"
+
+#: gui/prelobby/prelobby.xml:(caption):34
+msgid "Login to an existing account"
+msgstr "既存のアカウントでログインする"
+
+#: gui/prelobby/prelobby.xml:(caption):40
+msgid "Connect to the game lobby"
+msgstr "ゲームロビーに入る"
+
+#: gui/prelobby/prelobby.xml:(caption):43
+#: gui/prelobby/prelobby.xml:(caption):78
+msgid "Login:"
+msgstr "ログイン："
+
+#: gui/prelobby/prelobby.xml:(caption):51
+#: gui/prelobby/prelobby.xml:(caption):83
+msgid "Password:"
+msgstr "パスワード："
+
+#: gui/prelobby/prelobby.xml:(caption):68
+msgid "Remember Password"
+msgstr "パスワードを記憶しておく"
+
+#: gui/prelobby/prelobby.xml:(caption):74
+msgid "Registration"
+msgstr "登録"
+
+#: gui/prelobby/prelobby.xml:(caption):88
+msgid "Password again:"
+msgstr "パスワードの確認："
+
+#: gui/prelobby/prelobby.xml:(caption):103
+msgid "I have read and agree to the Terms of Service and Terms of Use:"
+msgstr "サービス規約および利用規約を読み承諾します："
+
+#: gui/prelobby/prelobby.xml:(caption):112
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: gui/prelobby/Terms_of_Service.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Service"
+msgstr "0 A.D. Empires Ascendant マルチプレイヤーロビーサービス規約"
+
+#: gui/prelobby/Terms_of_Service.txt:2 gui/prelobby/Terms_of_Use.txt:2
+msgid "Definitions:"
+msgstr "定義："
+
+#: gui/prelobby/Terms_of_Service.txt:3 gui/prelobby/Terms_of_Use.txt:3
+msgid ""
+" * The \"service\" is the 0 A.D. Empires Ascendant Multiplayer Lobby "
+"provided by Wildfire Games (WFG)."
+msgstr "「サービス」とは、Wildfire Games（WFG）が提供する0 A.D. Empires Ascendant マルチプレイヤーロビーを指します。"
+
+#: gui/prelobby/Terms_of_Service.txt:4 gui/prelobby/Terms_of_Use.txt:4
+msgid " * \"You\" are the user of the service."
+msgstr "*「あなた」とは当サービスの利用者を指します。"
+
+#: gui/prelobby/Terms_of_Service.txt:5
+msgid " * \"We\" are the collective of all Wildfire Games (WFG) team members."
+msgstr "*「当団体」とは、Wildfire Games（WFG）チーム全員の集合を指します。"
+
+#: gui/prelobby/Terms_of_Service.txt:6
+msgid ""
+" * \"Rating\" refers to the process of analyzing various user statistics for"
+" the purpose of generating a single comprehensive score."
+msgstr "* 「格付け」とは、単一の総合得点を決定するための様々な利用者統計の分析プロセスを指します。"
+
+#: gui/prelobby/Terms_of_Service.txt:7
+msgid " * \"Moderate\" refers to the process of enforcing usage policies."
+msgstr "* 「運営」とは、利用方針を施行するプロセスを指します。"
+
+#: gui/prelobby/Terms_of_Service.txt:8
+msgid "By using the service you agree to:"
+msgstr "当サービスを利用するにあたり、あなたは以下に同意します："
+
+#: gui/prelobby/Terms_of_Service.txt:9
+msgid " 1. Follow all usage policies."
+msgstr "1. すべての利用方針に従うこと。"
+
+#: gui/prelobby/Terms_of_Service.txt:10
+msgid ""
+" 2. Allow user identifiable statistics to be gathered for the purposes of "
+"rating, user profiles, and community statistics."
+msgstr "2. 格付けおよび利用者プロフィール、コミュニティ統計のために、利用者を特定可能な統計を収集することを許可すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:11 gui/prelobby/Terms_of_Use.txt:18
+msgid "We also reserve the right to:"
+msgstr "当団体は以下の権利を有します："
+
+#: gui/prelobby/Terms_of_Service.txt:12
+msgid " 1. Moderate the service."
+msgstr "1. 当サービスを運営すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:13
+msgid " 2. Appoint others to moderate the service."
+msgstr "2. 当サービスを運営する他者を任命すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:14
+msgid ""
+" 3. Discontinue or interrupt service at any time with or without prior "
+"announcement."
+msgstr "3. サービスを随時事前の告知のありなしに関わらず、停止あるいは中断すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:15
+msgid " 4. Change the service at any time with or without announcement."
+msgstr "4. 当サービスを随時告知のありなしに関わらず、変更すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:16
+msgid ""
+" 5. Delete any and all service data at any time with or without "
+"announcement."
+msgstr "5. 当サービスの任意もしくはすべてのデータを、随時告知のありなしに関わらず削除すること。"
+
+#: gui/prelobby/Terms_of_Service.txt:17
+msgid ""
+" 6. Collect any or all user identifiable statistics at any time without "
+"consent for:"
+msgstr "6. 以下に関する同意を得ずに、利用者の特定可能な統計を随時収集すること："
+
+#: gui/prelobby/Terms_of_Service.txt:18
+msgid ""
+"  a. Private analysis by Wildfire Games (WFG) team members and their "
+"affiliates."
+msgstr "a. Wildfire Games（WFG）チームメンバーとその協力者による非公開の分析。"
+
+#: gui/prelobby/Terms_of_Service.txt:19
+msgid "  b. Anonymized public release by Wildfire Games (WFG) team members."
+msgstr "b. Wildfire Games（WFG）チームメンバーによる個人を特定できない形での公表。"
+
+#: gui/prelobby/Terms_of_Service.txt:20
+msgid ""
+" 7. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "7.  当サービスの利用者に変更の十分な告知がされる条件の上で、任意の方法により随時、この文書を変更すること（十分な告知の定義は、Wildfire Games（WFG）チームメンバーの委員会が決定した時点とします）。"
+
+#: gui/prelobby/Terms_of_Use.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Use"
+msgstr "0 A.D. Empires Ascendant マルチプレイヤーロビー利用規約"
+
+#: gui/prelobby/Terms_of_Use.txt:5
+msgid ""
+" * \"Impersonate\" refers to the action in which you attempt to exploit "
+"another's identity for your own purposes."
+msgstr "* 「なりすまし」とは、あなたが他人の身元識別情報を自身のために悪用しようと試みる行為を指します。"
+
+#: gui/prelobby/Terms_of_Use.txt:6
+msgid ""
+" * \"Spam\" refers to irrelevant or inappropriate messages sent to a large "
+"number of recipients."
+msgstr "* 「スパム」とは、無関係あるいは不適当なメッセージを多数の受信者へ送ることを指します。"
+
+#: gui/prelobby/Terms_of_Use.txt:7
+msgid " * \"Rating\" refers to the per-user comprehensive score."
+msgstr "* 「格付け」とは、利用者ごとの総合得点を指します。"
+
+#: gui/prelobby/Terms_of_Use.txt:8
+msgid ""
+" * \"Ranked games\" refers to games in which rating changing statistics are "
+"tracked."
+msgstr "* 「順位記録ゲーム」とは、格付け変更の統計が記録されたゲームを指します。"
+
+#: gui/prelobby/Terms_of_Use.txt:9
+msgid "You agree to:"
+msgstr "あなたは以下に同意します："
+
+#: gui/prelobby/Terms_of_Use.txt:10
+msgid ""
+" 1. Only create one account per unique user on the service unless authorized"
+" by a Wildfire Games (WFG) team member."
+msgstr "1. 当サービスのアカウント作成は利用者1人につき1つのみとすること。ただし、Wildfire Games（WFG）チームメンバーの許可がある場合を除きます。"
+
+#: gui/prelobby/Terms_of_Use.txt:11
+msgid ""
+" 2. Not post profane statements, rude humor, pornographic content, or "
+"discriminatory comments on the service."
+msgstr "2. 冒涜的な発言や無礼なユーモア、わいせつなコンテンツ、差別的なコメントを当サービスに投稿しないこと。"
+
+#: gui/prelobby/Terms_of_Use.txt:12
+msgid " 3. Not purposefully demean the worth of others using the service."
+msgstr "3. 当サービスを用いて、意図して他人の名誉を貶めないこと。"
+
+#: gui/prelobby/Terms_of_Use.txt:13
+msgid ""
+" 4. Not use the service to promote specific goods, services, or products."
+msgstr "4. 当サービスを用いて、特定の商品やサービス、製品を宣伝しないこと。"
+
+#: gui/prelobby/Terms_of_Use.txt:14
+msgid " 5. Not impersonate other users of the service."
+msgstr "5. 当サービスの他の利用者へのなりすましを行わないこと。"
+
+#: gui/prelobby/Terms_of_Use.txt:15
+msgid " 6. Not spam the service."
+msgstr "6. 当サービスでスパムを行わないこと。"
+
+#: gui/prelobby/Terms_of_Use.txt:16
+msgid ""
+" 7. Not attempt to artificially adjust any user of the service's rating or "
+"any of the statistics which impact it. (Examples of this are, but are not "
+"limited to: cheating in ranked games, reverse engineering the service, and "
+"taking advantage of other users of the service.)"
+msgstr "7. 人為的に当サービスの任意の利用者の得点あるいは得点に影響する任意の統計を改変しようと試みること。（この例として、得点記録ゲームでのチートや当サービスのリバースエンジニアリングで当サービスの他の利用者より優位に立つこと、ただしこの例に限定されません）"
+
+#: gui/prelobby/Terms_of_Use.txt:17
+msgid ""
+" 8. Allow yourself to be removed from the service if at any time a moderator"
+" determines your behavior is not consistent with these rules."
+msgstr "8. いつでも運営者があなたの行動が本規約に反すると判断した場合に、当サービスから追放されることを承諾すること。"
+
+#: gui/prelobby/Terms_of_Use.txt:19
+msgid ""
+" 1. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "1.  当サービスの利用者に変更の十分な告知がされる条件の上で、任意の方法により随時、この文書を変更すること（十分な告知の定義は、Wildfire Games (WFG)チームメンバーの委員会が決定した時点とします）。"
